@@ -1,5 +1,6 @@
-# Classification-d-images-medicales
+# Medical Image Classification Using the MedNIST Dataset
 
+Using Pytorch and Flask
 
 
 
