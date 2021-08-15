@@ -1,5 +1,5 @@
 # Medical Image Classification Using the MedNIST Dataset
-![alt text](logo.png height=15x15)
+<img src="logo.png" width="15" height = "15">
 Using Pytorch and Flask
 
 
