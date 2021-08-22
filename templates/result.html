@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% set active_page = "accueil" %}
+{% block title %}Accueil{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block page_content %}
+<div class="raw mb-5">
+    <a href="/" class="btn rounded text-white" id='new_predict' role="button"
+      aria-pressed="true" style="position: fixed;top:150px;left:2px;text-align: left;background-color: rgb(64, 116, 116);">Return</a>
+</div>
+<div class="raw justify-content-center">
+  <h3 class="h3 mb-3 font-weight-normal">Predictions for the imported images</h3>
+</div>
+<div class="raw justify-content-center rounded" style="background-color: whitesmoke;max-height: 350px">
+  <lu>
+    {% for predicted_file in predicted_files %}
+    <li>The image <span class="text-info">{{ predicted_file.file_name }}</span> classified as <span
+        class="text-success">{{ predicted_file.class_name }}</span> and stored in <span
+        class="text-secondary">{{ predicted_file.file_path }}</span></li>
+    {% endfor %}
+  </lu>
+</div>
+
+{% endblock %}
+{% block scripts %}
+{{ super() }}
+{% endblock %}
