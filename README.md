@@ -1,6 +1,6 @@
 ##  Medical Image Classification Interface (MedNet App) Using the MedNIST Dataset
 
-###  This project is heavily inspired by [MedNet App V1](https://github.com/BenhajjiNoura/mednist-classification.git).
+###  Ce projet est inspiré de [MedNet App V1](https://github.com/BenhajjiNoura/mednist-classification.git).
 
 
 ###  Requirements
